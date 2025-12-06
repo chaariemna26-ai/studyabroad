@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription - Étudier à l'Étranger</title>
+    <link rel="stylesheet" href="inscription.css">
+</head>
+<body>
+    <header>
+        <h1>Étudier à l'Étranger</h1>
+        <nav>
+            <ul>
+                <li><a href="Accueil.html">Accueil</a></li>
+                <li><a href="Programme.html">Programmes</a></li>
+                <li><a href="Inscription.html" class="page3">Inscription</a></li>
+                <li><a href="Temoignage.html">Témoignages</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h2>Inscription en ligne</h2>
+        <p>Remplissez le formulaire ci-dessous pour commencer votre inscription.</p>
+    </section>
+
+    <div class="formulaire">
+        <form>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="programme">Programme :</label>
+            <select id="programme" name="programme">
+                <option value="bachelor">Bachelor</option>
+                <option value="master">Master</option>
+                <option value="doctorat">Doctorat</option>
+                <option value="certificat">Certificat</option>
+            </select>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+    
+
+
+
+    <footer>
+        <p>Ouvrez les portes du monde grâce aux études à l'étranger 🌍</p>
+    </footer>
+</body>
+</html>
+
